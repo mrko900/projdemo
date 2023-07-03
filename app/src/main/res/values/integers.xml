@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- anim_duration >= anim_alpha_duration -->
+    <!-- anim_alpha_in_offset + anim_alpha_duration = anim_duration -->
+    <integer name="anim_duration">200</integer>
+    <integer name="anim_alpha_duration">100</integer>
+    <integer name="anim_alpha_in_offset">100</integer>
+    <integer name="exercise_list_span_count">2</integer>
+
+    <integer name="shape_fusion_exercise_fade_in_duration_operand">1000</integer>
+    <integer name="shape_fusion_exercise_fade_out_duration_operand">1000</integer>
+    <integer name="shape_fusion_exercise_fade_in_delay_operator">500</integer>
+    <integer name="shape_fusion_exercise_fade_in_duration_operator">700</integer>
+    <integer name="shape_fusion_exercise_fade_out_duration_operator">700</integer>
+    <integer name="shape_fusion_exercise_delay_between_questions">1000</integer>
+    <integer name="shape_fusion_exercise_choice_fade_in_duration">500</integer>
+    <integer name="shape_fusion_exercise_choice_fade_out_duration">500</integer>
+    <integer name="shape_fusion_exercise_first_bitmap_fade_out_duration">200</integer>
+    <integer name="shape_fusion_exercise_first_bitmap_fade_in_duration">400</integer>
+
+    <integer name="trails_exercise_movement_anim_delay">150</integer>
+    <integer name="trails_exercise_selection_fade_in_out">1500</integer>
+
+    <integer name="status_fade_in">200</integer>
+    <integer name="status_fade_out">200</integer>
+    <integer name="status_duration_default">2500</integer>
+    <integer name="exercise_completed_progress_anim_duration">1500</integer>
+</resources>

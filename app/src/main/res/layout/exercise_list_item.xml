@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="@dimen/exercise_list_item_corner_radius">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cardViewRoot"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E1F5FE"
+        android:padding="0dp">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:includeFontPadding="false"
+            android:text="TextView"
+            android:textColor="@color/black"
+            android:textSize="@dimen/exercise_list_item_title_text_size"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/playButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cardViewBottom"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="#E8F5E9"
+            android:elevation="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/guideline2">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button4"
+                android:layout_width="@dimen/exercise_list_item_extra_btn_size"
+                android:layout_height="@dimen/exercise_list_item_extra_btn_size"
+                android:layout_marginStart="8dp"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/ripple2"
+                android:minWidth="0dp"
+                android:padding="0dp"
+                android:paddingStart="4dp"
+                android:paddingEnd="4dp"
+                app:icon="@drawable/ic_baseline_stacked_line_chart_24"
+                app:iconGravity="textStart"
+                app:iconPadding="0dp"
+                app:iconTint="?colorPrimary"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button6"
+                android:layout_width="@dimen/exercise_list_item_extra_btn_size"
+                android:layout_height="@dimen/exercise_list_item_extra_btn_size"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/ripple2"
+                android:minWidth="0dp"
+                android:padding="0dp"
+                android:paddingStart="4dp"
+                android:paddingEnd="4dp"
+                app:icon="@drawable/ic_baseline_leaderboard_24"
+                app:iconGravity="textStart"
+                app:iconPadding="0dp"
+                app:iconTint="?colorPrimary"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/button5"
+                app:layout_constraintStart_toEndOf="@+id/button4" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button5"
+                android:layout_width="@dimen/exercise_list_item_extra_btn_size"
+                android:layout_height="@dimen/exercise_list_item_extra_btn_size"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/ripple2"
+                android:minWidth="0dp"
+                android:padding="0dp"
+                android:paddingStart="4dp"
+                android:paddingEnd="4dp"
+                app:icon="@drawable/ic_baseline_question_mark_24"
+                app:iconGravity="textStart"
+                app:iconPadding="0dp"
+                app:iconTint="?colorPrimary"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <TextView
+                android:id="@+id/rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/exercise_list_item_half_play_btn_size"
+                android:layout_marginEnd="4dp"
+                android:text="1496"
+                android:textColor="@color/black"
+                android:textSize="@dimen/exercise_list_item_rating_text_size"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/button6"
+                app:layout_constraintEnd_toStartOf="@+id/ratingProgressIcon"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintHorizontal_chainStyle="packed"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/ratingProgressIcon"
+                android:layout_width="12dp"
+                android:layout_height="wrap_content"
+                android:scaleType="center"
+                android:tint="#FF3C960B"
+                app:layout_constraintBottom_toBottomOf="@+id/rating"
+                app:layout_constraintEnd_toStartOf="@+id/ratingProgress"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/rating"
+                app:layout_constraintTop_toTopOf="@+id/rating"
+                app:srcCompat="@drawable/ic_baseline_arrow_drop_up_24" />
+
+            <TextView
+                android:id="@+id/ratingProgress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12"
+                android:textColor="#3C960B"
+                android:textSize="@dimen/exercise_list_item_rating_text_size"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/rating"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/ratingProgressIcon"
+                app:layout_constraintTop_toTopOf="@+id/rating" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ImageView
+            android:id="@+id/playButton"
+            android:layout_width="@dimen/exercise_list_item_play_btn_size"
+            android:layout_height="@dimen/exercise_list_item_play_btn_size"
+            android:background="@drawable/round_button"
+            android:backgroundTint="#E8F5E9"
+            android:clickable="true"
+            android:elevation="10dp"
+            android:focusable="auto"
+            android:foreground="@drawable/ripple2"
+            android:padding="0dp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/play_circle_filled" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.5" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

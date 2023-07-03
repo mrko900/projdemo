@@ -1,0 +1,16 @@
+<resources>
+    <dimen name="exercise_list_spacing">4dp</dimen>
+    <dimen name="exercise_list_item_corner_radius">16dp</dimen>
+    <dimen name="exercise_list_item_height">280dp</dimen>
+    <dimen name="exercise_list_item_title_text_size">24sp</dimen>
+    <dimen name="exercise_list_item_rating_text_size">18sp</dimen>
+    <dimen name="exercise_list_item_play_btn_size">80dp</dimen>
+    <dimen name="exercise_list_item_half_play_btn_size">40dp</dimen>
+    <dimen name="exercise_list_item_extra_btn_size">40dp</dimen>
+    <dimen name="choice_card_image_margin">8dp</dimen>
+    <dimen name="choice_card_image_size">60dp</dimen>
+    <dimen name="expr_card_image_size">80dp</dimen>
+    <dimen name="expr_card_operator_image_size">40dp</dimen>
+    <dimen name="shape_fusion_gap">3dp</dimen>
+    <dimen name="exercise_top_bar_elevation">10dp</dimen>
+</resources>

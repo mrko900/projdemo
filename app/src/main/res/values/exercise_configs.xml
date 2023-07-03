@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exercise_configs">
+        <item>Default</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="stats_exercise_selection">
+        <item>All</item>
+        <item>@string/exercise_title_shape_fusion</item>
+        <item>@string/exercise_title_trails</item>
+        <item>@string/exercise_title_math_chains</item>
+    </string-array>
+    <string-array name="stats_exercise_selection_ind">
+        <item>@string/exercise_title_shape_fusion</item>
+        <item>@string/exercise_title_trails</item>
+        <item>@string/exercise_title_math_chains</item>
+    </string-array>
+</resources>

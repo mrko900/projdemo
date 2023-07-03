@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/fragment_home">
+    <fragment
+        android:id="@+id/fragment_home"
+        android:name="com.github.mrko900.braintrainer.ProfileFragment" />
+    <fragment
+        android:id="@+id/fragment_exercise_list"
+        android:name="com.github.mrko900.braintrainer.ExerciseListFragment" />
+    <fragment
+        android:id="@+id/fragment_stats"
+        android:name="com.github.mrko900.braintrainer.StatsFragment" />
+    <fragment
+        android:id="@+id/fragment_profile"
+        android:name="com.github.mrko900.braintrainer.ProfileFragment" />
+    <fragment
+        android:id="@+id/fragment_exercise_details"
+        android:name="com.github.mrko900.braintrainer.ExerciseDetailsFragment" />
+    <fragment
+        android:id="@+id/fragment_exercise"
+        android:name="com.github.mrko900.braintrainer.ExerciseFragment" />
+    <fragment
+        android:id="@+id/fragment_exercise_completed"
+        android:name="com.github.mrko900.braintrainer.ExerciseCompletedFragment" />
+    <fragment
+        android:id="@+id/fragment_stats_general"
+        android:name="com.github.mrko900.braintrainer.StatsGeneralFragment" />
+    <fragment
+        android:id="@+id/fragment_stats_progress"
+        android:name="com.github.mrko900.braintrainer.StatsProgressFragment" />
+    <fragment
+        android:id="@+id/fragment_stats_perf_factors"
+        android:name="com.github.mrko900.braintrainer.StatsPerfFactorsFragment" />
+    <fragment
+        android:id="@+id/fragment_stats_activity"
+        android:name="com.github.mrko900.braintrainer.StatsActivityFragment" />
+</navigation>

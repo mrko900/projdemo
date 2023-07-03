@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">braintrainer</string>
+    <string name="title_home">Home</string>
+    <string name="title_exercises">Exercises</string>
+    <string name="title_stats">Stats</string>
+    <string name="title_profile">Profile</string>
+
+    <string name="exercise_title_math">MATH</string>
+    <string name="exercise_title_shape_fusion">Shape fusion</string>
+    <string name="exercise_title_trails">Trails</string>
+    <string name="exercise_title_math_chains">Math chains</string>
+
+    <string name="status_correct_guess">Correct</string>
+    <string name="status_wrong_guess">Wrong</string>
+    <string name="status_timed_out">Timed out</string>
+
+    <string name="exercise_completed">Exercise completed</string>
+
+    <string name="personal_best">Personal best:</string>
+    <string name="exercise_config">Configuration:</string>
+    <string name="exercise_mode">Mode:</string>
+
+    <string name="info">Info</string>
+    <string name="stats">Stats</string>
+
+    <string name="score">Score:</string>
+    <string name="avg_time_per_question">Avg. time per question:</string>
+
+    <string name="seconds_placeholder">%1$s s</string>
+    <string name="correct_choices">Correct choices:</string>
+    <string name="wrong_choices">Wrong choices:</string>
+    <string name="timeouts">Timeouts:</string>
+
+    <string name="number_of_rounds">Number of rounds</string>
+
+    <string name="exercises_completed">Exercises completed:</string>
+    <string name="total_questions">Total questions:</string>
+    <string name="correct_answers">Correct answers:</string>
+    <string name="wrong_answers">Wrong answers:</string>
+    <string name="avg_time_for_correct_answ">Avg. time for correct ans.:</string>
+    <string name="avg_time_for_wrong_answ">Avg. time for wrong ans.:</string>
+    <string name="total_score">Aggregate score:</string>
+    <string name="avg_score">Average score:</string>
+    <string name="avg_improvement_per_exercise">Avg. improvement per ex.:</string>
+    <string name="avg_improvement_per_hour">Avg. improvement per hr:</string>
+    <string name="total_time_spent">Total time spent:</string>
+
+    <string name="stats_general">General stats</string>
+    <string name="stats_progress">Progress</string>
+    <string name="stats_perf_factors">Performance factors</string>
+    <string name="stats_activity">Activity</string>
+</resources>
